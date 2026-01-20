@@ -336,7 +336,7 @@ export default function App() {
   return (
     <div className="bg-gradient-to-br from-slate-100 to-slate-200 p-4 pt-16">
       <div className="fixed top-0 left-0 right-0 bg-slate-800 text-white p-2 z-50 flex justify-between items-center print:hidden">
-        <h1 className="text-xl font-bold">Daily Time Allocation</h1>
+        <h1 className="text-xl font-bold">Daily Planner <span className='text-xs font-normal'>(v0.1)</span></h1>
         <div className="flex gap-2">
           <button onClick={exportConfig} className="px-4 py-2 bg-blue-500 text-white rounded text-sm">Export Config</button>
           <label className="px-4 py-2 bg-green-500 text-white rounded text-sm cursor-pointer">
